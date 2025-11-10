@@ -60,10 +60,13 @@ def fetch_and_display_users(filter_city: str = None):
 
     except req.exceptions.HTTPError as e:
         print(f"\nAPI Request Error: Failed to retrieve data")
+        sys.exit(1)
     except Exception as e:
         print(f"\nAn unexpected error occured: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
+
 
     # with filter city
     fetch_and_display_users(filter_city='S')
