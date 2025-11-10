@@ -5,12 +5,13 @@ This Python Script is coded to fetch user data from a public API (`https://jsonp
 
 ## 💻 Prerequisites
 To run this script, you must have the following installed.
-**1️⃣Python 3.6+**
-2️⃣ The `requests` library (for making GET request).
+
+1️⃣ **Python 3.6+**<br>
+2️⃣ The `requests` library (for making GET request).<br>
 
 ## 🛠️ Installation
-1️⃣ **Clone the repository** or save `fetchData.py` file to your local machine
-2️⃣ **Install the required Dependency** (`requests`) using pip:
+1️⃣ **Clone the repository** or save `fetchData.py` file to your local machine <br>
+2️⃣ **Install the required Dependency** (`requests`) using pip:<br>
 ``` bash
 pip install requests
 ```
@@ -19,14 +20,14 @@ pip install requests
 
 The script supports two primary modes of operation: the main task (displaying all users) and the optional bonus task (filtering by city).
 
-1️⃣ **Main Task (Default Run)**
+1️⃣ **Main Task (Default Run)**<br>
 
 To run the script and display the Name, Username, Email, and City for all fetched users, 
 ``` bash
 python fetchData.py
 ```
 
-2️⃣ **Optional Bonus: Filter by City**
+2️⃣ **Optional Bonus: Filter by City**<br>
 
 The script contains an optional filter that only prints users whose city name begins with a specific letter (case-insensitive).
 
