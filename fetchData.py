@@ -14,7 +14,7 @@ def fetch_and_display_users(filter_city: str = None):
     
     try:
         # step 1: GET Request
-        res = req.get(API_URL, timeout=20)
+        res = req.get(API_URL, timeout=10)
 
         # step 2: handling exceptions
         res.raise_for_status()
@@ -48,7 +48,7 @@ def fetch_and_display_users(filter_city: str = None):
             user_cnt += 1
 
             # print each user data
-            print(f"User {user_cnt}:")
+            print(f"\nUser {user_cnt}:")
             print(f"    Name: {name}")
             print(f"    Username: {usrname}")
             print(f"    Email: {email}")
@@ -67,11 +67,11 @@ def fetch_and_display_users(filter_city: str = None):
 
 if __name__ == "__main__":
 
-
-    # with filter city
+    # Run the main function. Uncomment the line below to apply 
+    # the optional bonus filter for cities starting with 'S'.
     fetch_and_display_users(filter_city='S')
 
-    # without filter
+   # Run without the filter
     # fetch_and_display_users()
 
 
