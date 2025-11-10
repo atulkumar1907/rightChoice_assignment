@@ -4,8 +4,8 @@
 This Python Script is coded to fetch user data from a public API (`https://jsonplaceholder.typicode.com/users`), process the JSON response, and display key user details. It also handles API errors and empty responses.
 
 ## 💻 Prerequisites
-To run this script, you must have the following installed
-1️⃣ **Python 3.6+**
+To run this script, you must have the following installed.
+**1️⃣Python 3.6+**
 2️⃣ The `requests` library (for making GET request).
 
 ## 🛠️ Installation
