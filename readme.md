@@ -12,7 +12,7 @@ To run this script, you must habe the following installed
 1. **Clone the repository** or save `fetchData.py` file to your local machine
 2. **Install the required Dependency (`requests`) using pip:
 ``` bash
-pip install reuests
+pip install requests
 ```
 
 ## 🧠 Usage
